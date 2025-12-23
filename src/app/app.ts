@@ -1,9 +1,9 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Forksjoin } from "./component/forksjoin/forksjoin";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [ Forksjoin],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
