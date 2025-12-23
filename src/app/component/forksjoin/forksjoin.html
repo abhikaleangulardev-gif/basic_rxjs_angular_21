@@ -1,0 +1,41 @@
+<p>forksjoin works!</p>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-header">
+                    Recipe Name
+                </div>
+                <div class="card-body">
+                    @for (recipe of myRecipe; track $index) {
+                    <div>{{recipe.name}}</div>
+                    }
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-header">
+                    Fashion Title
+                </div>
+                <div class="card-body">
+                    @for (fashion of myFashion; track $index) {
+                    <div>{{fashion.title}}</div>
+                    }
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-header">
+                    Fashion Title
+                </div>
+                <div class="card-body">
+                    @for (user   of myUser; track $index) {
+                    <div>{{user.name}}</div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
